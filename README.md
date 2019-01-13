@@ -15,7 +15,7 @@ On the serial side it talks strict Language of Things, on the UDP network it enc
 ## How to Run It ##
 
 ~~
-docker run --rm -p 50141:50141/udp -e SERIAL_PORT=/dev/ttyAMA0 user2684/messagebridge
+docker run --rm --privileged -p 50141:50141/udp -e SERIAL_PORT=/dev/ttyAMA0 user2684/messagebridge
 ~~
 
 ## Tags ##
